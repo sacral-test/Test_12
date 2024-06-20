@@ -1,0 +1,19 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <name>Event</name>
+    <label>Event</label>
+    <pluralLabel>Events</pluralLabel>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <sharingModel>ReadWrite</sharingModel>
+    <nameField>
+        <label>Event Name</label>
+        <type>Text</type>
+    </nameField>
+    <fields>
+        <fullName>ReminderDateTime</fullName>
+        <label>Reminder Date/Time</label>
+        <type>DateTime</type>
+        <required>true</required>
+    </fields>
+</CustomObject>
